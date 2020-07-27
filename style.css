@@ -1,0 +1,66 @@
+/* Padding, text align, and border applied to table */
+#hardestClimb .text {
+    text-align: center;
+    border-style: solid;
+    padding: 2%;
+}
+
+#hardestClimb iframe {
+    border: solid;
+}
+
+/* Background color applied to table */
+#hardestClimb {
+    background-color: darkgray;
+}
+
+/* Scales each td to be 25% of the screen */
+#hardestClimb td {
+    width: 25%;
+}
+
+/* background color applied to thead */
+#hardestClimb thead {
+    font-size: larger;
+    background-color: darkseagreen;
+}
+
+#TTTCon {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Had bug putting the header directly into the table - used h2 to center text over table */
+#TTTCon h2 {
+    text-align: center;
+}
+
+/* Centering table */
+#TTT {
+    margin-left: 37%;
+    margin-right: 37%;
+    text-align: center;
+}
+
+#TTT tr {
+    text-align: center;
+}
+
+#TTT td {
+    width: 33%;
+    text-align: center;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form input {
+    width: 10%;
+}
+
+

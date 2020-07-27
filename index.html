@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        First table is described immediately below this comment. Below the first table is the Tic Tac Toe Table. Below the Tic Tac Toe Table is the form.
+     -->
+
+    <div id="mainCon">
+        <!-- Table with four entries for hardest climbing routes for Sport, Single-Pitch Trad, Deep Water Solo, and Bouldering.
+        Each row is 4 sections across: Type of climb, name, grade, video of the climb being done.
+        Videos are embedded from YouTube beside text (used video embed instead of image)
+    
+    thead, tr, td, tbody all found here-->
+
+        <div id="hardestClimbCon">
+            <table id="hardestClimb">
+                <thead>
+                    <tr>
+                    <th>Type of Climb</th>
+                    <th>Name of Route/Problem</th>
+                    <th>Difficulty</th>
+                    <th>Video/Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td class="text">Sport</td>
+                    <td class="text">Silence</td>
+                    <td class="text">5.15d / 9c</td> 
+                    <td>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRTNHDd0gL8?start=659" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                    </td>
+                    </tr>
+                    <tr>
+                        <td class="text">Traditional</td>
+                        <td class="text">Recovery Drink (There are many others at this grade)</td>
+                        <td class="text">5.14c</td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/6EoglUzcGWI?start=384" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    </tr>
+                    <tr>
+                        <td class="text">Deep Water Solo</td>
+                        <td class="text">Es Pontas</td>
+                        <td class="text">5.15a/b?</td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/NXe7d4ouRpg?start=22" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    </tr>
+                    <tr>
+                        <td class="text">Bouldering</td>
+                        <td class="text">V17</td>
+                        <td class="text">Burden of Dreams</td>
+                        <td><iframe width="560" height="315" src="https://www.youtube.com/embed/uTZSILGTskA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Tic Tac Toe Table -->
+    <div id="TTTCon">
+            <h2>Tic Tac Toe</h2>
+            <table id="TTT">
+                <tr>
+                    <td class="ttext">X</td>
+                    <td class="ttext">X</td>
+                    <td class="ttext">O</td>
+                </tr>
+                <tr>
+                    <td class="ttext">X</td>
+                    <td class="ttext">O</td>
+                    <td class="ttext">X</td>
+                </tr>
+                <tr>
+                    <td class="ttext">O</td>
+                    <td class="ttext">X</td>
+                    <td class="ttext">O</td>
+                </tr>
+            </table>
+    </div>
+
+    <!-- Form found here -->
+    <form id="form" enctype="text/plain" method="GET">
+        
+        <!-- Showinf the mail to function, don't actually want emails though action="mailto:someone@somewhere.com -->
+
+        <label for="fname">First Name</label>
+        <input type="text">
+        <label for="lname">Last Name</label>
+        <input type="text">
+        <input type="submit">
+    </form>
+
+</div>
+</body>
+</html>
